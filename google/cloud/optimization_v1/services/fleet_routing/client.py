@@ -50,7 +50,7 @@ from google.api_core import operation  # type: ignore
 from google.api_core import operation_async  # type: ignore
 from google.cloud.optimization_v1.types import async_model
 from google.cloud.optimization_v1.types import fleet_routing
-from google.longrunning import operations_pb2
+from google.longrunning import operations_pb2  # type: ignore
 from .transports.base import FleetRoutingTransport, DEFAULT_CLIENT_INFO
 from .transports.grpc import FleetRoutingGrpcTransport
 from .transports.grpc_asyncio import FleetRoutingGrpcAsyncIOTransport
